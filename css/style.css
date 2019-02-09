@@ -1,0 +1,57 @@
+/*Body*/
+body{
+    background: #fff;
+}
+
+/*Header*/
+#header .header-inner{
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    padding-top: 150px;
+}
+
+#navbarId .navbar{
+    opacity: .5;
+}
+
+/*What I Do*/
+#whatDo{
+    background: url('../img/serve.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#whatDo .custom-card{
+    background: rgba(211,211,211,0.1);
+}
+
+#whatDo .custom-card:hover{
+    background: #2196F3;
+}
+
+/*Projects*/
+#projects .projects-button{
+    margin-top: 155px;
+    display: none;
+}
+
+#projects .card:hover .projects-button{
+    display: block;
+}
+
+/*Counter*/
+#counter{
+    background: url('../img/stats.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Contact*/
+#contact{
+    background: url('../img/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
